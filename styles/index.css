@@ -71,28 +71,28 @@ h2 {
   transform: all 1s;
 }
 
-.button_card:active {
+.button_card:hover {
   border: 4px solid var(--background-headings-buttons);
   color: var(--background-headings-buttons);
 }
 .button_orange {
   color: var(--Bright-orange);
 }
-.button_orange:active {
+.button_orange:hover {
   background-color: var(--Bright-orange);
 }
 
 .button_cyan {
   color: var(--Dark-cyan);
 }
-.button_cyan:active {
+.button_cyan:hover {
   background-color: var(--Dark-cyan);
 }
 
 .button_dark-cyan {
   color: var(--Very-dark-cyan);
 }
-.button_dark-cyan:active {
+.button_dark-cyan:hover {
   background-color: var(--Very-dark-cyan);
 }
 
