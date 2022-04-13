@@ -13,13 +13,54 @@
 body{
     min-height: 100vh;
     background-color: var(--background-headings-buttons);
-    font-family: 'Lexend Deca', sans-serif;
-    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Big Shoulders Display', "cursive";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+
+h2{
+    font-size: 2.5rem;
+    color: var(--background-headings-buttons);
 }
 .content{
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
-    
+    width: 900px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 30px;
 }
 
+.card{
+    width: 200px;
+    padding: 50px;
 
+}
+.card_descrption {
+    color: var(--Transparent-white-paragraphs);
+    font-family: 'Lexend Deca', sans-serif;
+    line-height: 1.5;
+}
+.sedan{
+    background-color: var(--Bright-orange);
+    border-radius: 10px 0 0 10px;
+
+}
+.suvs{
+    background-color: var(--Dark-cyan);
+}
+.luxury{
+    background-color: var(--Very-dark-cyan);
+    border-radius: 0px 10px 10px 0px;
+
+}
+
+@media (max-width: 600px) {
+   
+.content{
+    width: 350px;
+    height: 800px;
+    flex-direction: column;
+}
+}
